@@ -7,6 +7,3 @@ echo $1 \
 -ow $2 \
 -g 15 \
 -fm 1
-
-aplay --quiet $2
-rm $2

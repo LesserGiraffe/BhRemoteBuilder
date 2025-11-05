@@ -7,6 +7,9 @@ mkdir .\BhRemote\BhRuntime\App\Actions
 mkdir .\BhRemote\BhRuntime\App\Actions\open_jtalk
 mkdir .\BhRemote\BhRuntime\App\License
 mkdir .\BhRemote\BhRuntime\App\Version
+mkdir .\BhRemote\BhRuntime\App\UserData
+mkdir .\BhRemote\BhRuntime\App\UserData\Text
+mkdir .\BhRemote\BhRuntime\App\UserData\Audio
 xcopy /E /Y .\BhRuntime .\BhRemote\BhRuntime
 xcopy /E /Y .\open_jtalk\RaspberryPi\openJTalk\Actions\open_jtalk .\BhRemote\BhRuntime\App\Actions\open_jtalk
 xcopy /Y .\open_jtalk\RaspberryPi\openJTalk\Actions\bhSay.sh .\BhRemote\BhRuntime\App\Actions
