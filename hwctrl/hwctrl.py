@@ -400,7 +400,7 @@ class CmdProcessor:
             self.__cancel_move()
             self.__cancel_color_detection()
             sleep(0.1)
-        for led in list(self.__right_eye.values()) + list(self.__right_eye.values()):
+        for led in list(self.__right_eye.values()) + list(self.__left_eye.values()):
             led.off()
 
         self.__i2c1.close()
